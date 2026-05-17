@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="./src/output.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -11,25 +11,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+
     <title>Pinacle</title>
   </head>
   <body>
     <section
-      class="bg-[url('images/banner.jpg')] bg-cover bg-center w-full h-screen"
+      class="bg-[url('./images/banner.jpg')] bg-cover bg-center w-full h-screen"
     >
       <header class="py-3">
         <div
           class="max-w-[1240px] mx-auto flex justify-between items-center md:px-0 px-5"
         >
           <figure>
-            <img class="w-[150px] h-auto" src="./images/logo.png" alt="" />
+            <img class="w-[150px] h-auto" src="./src/images/logo.png" alt="" />
           </figure>
           <nav
             id="navbar"
@@ -131,7 +125,7 @@
         class="white-section md:grid grid-cols-2 gap-20 justify-center items-center max-w-[1240px] mx-auto"
       >
         <div class="white-section-logo">
-          <img src="./images/logo.png" alt="" />
+          <img src="./src/images/logo.png" alt="" />
         </div>
         <div class="white-section-content flex flex-col gap-3 px-5 mx-auto">
           <h1 class="text-4xl text-blue-950">
@@ -160,7 +154,7 @@
         </div>
       </div>
       <section
-        class="bg-[url('images/number-bg.jpg')] bg-cover bg-center w-full md:h-[300px] mt-5"
+        class="bg-[url(images/number-bg.jpg)] bg-cover bg-center w-full md:h-[300px] mt-5"
       >
         <div class="max-w-[1240px] mx-auto py-8">
           <h2 class="text-center text-white text-2xl">
@@ -212,6 +206,6 @@
         </div>
       </section>
     </main>
-    <script src="index.js"></script>
+    <script src="/src/index.js"></script>
   </body>
 </html>
